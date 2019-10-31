@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Workflow">
+	<listeners>
+		<listener
+			class-name="com.icrm.qa.extentReportListeners.ExtentReportNG" />
+	</listeners>
+
+	<test name="CreateCase">
+		<classes>
+			<class name="com.icrm.qa.testcases.CreateCase"></class>
+		</classes>
+	</test>
+</suite>
